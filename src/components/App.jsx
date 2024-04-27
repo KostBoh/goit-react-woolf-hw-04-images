@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Searchbar } from './Searchbar/Searchbar';
+import Searchbar from './Searchbar/Searchbar';
 import { getPhotos } from './service/image-service';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Loader from './Loader/Loader';
